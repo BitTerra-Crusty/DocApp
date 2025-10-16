@@ -1,0 +1,6 @@
+@DocsApp_HostAddress = http://localhost:5268
+
+GET {{DocsApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
