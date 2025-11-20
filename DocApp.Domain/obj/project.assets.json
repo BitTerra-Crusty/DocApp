@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.Domain\\DocApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.Domain\\DocApp.Domain.csproj",
       "projectName": "DocApp.Domain",
-      "projectPath": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.Domain\\DocApp.Domain.csproj",
+      "projectPath": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.Domain\\DocApp.Domain.csproj",
       "packagesPath": "C:\\Users\\ANDY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

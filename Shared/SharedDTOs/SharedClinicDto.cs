@@ -2,7 +2,7 @@
 
 namespace DocApp.API.DTOs
 {
-    public class ClinicDto
+    public class SharedClinicDto
     {
 
         /// <summary>

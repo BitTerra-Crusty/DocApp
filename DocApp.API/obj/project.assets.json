@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
       }
     }
   },
@@ -439,10 +449,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -453,11 +469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.API\\DocApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.API\\DocApp.API.csproj",
       "projectName": "DocApp.API",
-      "projectPath": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.API\\DocApp.API.csproj",
+      "projectPath": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.API\\DocApp.API.csproj",
       "packagesPath": "C:\\Users\\ANDY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ANDY\\source\\repos\\DocsApp\\DocApp.API\\obj\\",
+      "outputPath": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\DocApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -478,7 +494,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\ANDY\\source\\SoftWei\\repos\\DocApp\\Shared\\Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
